@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "SoCity",
+    "slug": "moscow-city",
+    "version": "1.2.9",
+    "description": "Room service for Moscow City citizens",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "mscwty",
+    "splash": {
+      "image": "./assets/splash-full.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F0F0F3"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.trigognight.so-city",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Access to photos is used for displaying personalized(chosen by user) picture in one of the app screen(profile screen). All data is saved locally without any kind server data-transferring"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.trigognight.moscowcity"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
